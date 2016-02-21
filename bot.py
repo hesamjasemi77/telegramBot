@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# ver 1.2
 import urllib
 import json
 import time
