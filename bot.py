@@ -31,10 +31,10 @@ try :
         myfile = f.read()
         print myfile
         mark_read(offset)
+        offset += 1
         
 except IndexError :
-    pashm = 1 + 1
-    #pashm
+    pass
 
     
 while (answer != "die") :  #holy while
@@ -88,7 +88,7 @@ while (answer != "die") :  #holy while
             google_result = x["responseData"]["results"][0]["url"]
             google_result_title = x["responseData"]["results"][0]["titleNoFormatting"]            
             google_last = google_result_title + " : " + google_result
-            z = "https://api.telegram.org/bot112829851:AAEx2l3AG7fJPz8JXeFQS6rFK82VBa61wX4/sendMessage?chat_id=" + user_id + "&text=" + google_last
+            z = "https://api.telegram.org/bot"+token+"/sendMessage?chat_id=" + user_id + "&text=" + google_last
             requests.post(z)
             mark_read(offset)
 
