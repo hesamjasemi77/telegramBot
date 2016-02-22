@@ -33,8 +33,8 @@ try :
         mark_read(offset)
         
 except IndexError :
-    pashm = 1 + 1
-    #pashm
+    nothing = 1 + 1
+    #nothing
 
     
 while (answer != "die") :  #holy while
