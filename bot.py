@@ -1,3 +1,30 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @hesamjasemi77
+
+1
+0
+
+    0
+
+hesamjasemi77/telegramBot
+Code
+Issues 0
+Pull requests 0
+Wiki
+Pulse
+Graphs
+Settings
+telegramBot/bot.py
+e47dc2b 12 minutes ago
+@hesamjasemi77 hesamjasemi77 Update bot.py
+103 lines (84 sloc) 3.24 KB
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 # version : 1.21 persian language support
@@ -31,10 +58,10 @@ try :
         myfile = f.read()
         print myfile
         mark_read(offset)
-        offset += 1
         
 except IndexError :
-    pass
+    nothing = 1 + 1
+    #nothing
 
     
 while (answer != "die") :  #holy while
@@ -100,3 +127,8 @@ while (answer != "die") :  #holy while
     else : #when command is incorrect
         mark_read(offset)
         
+
+    Status API Training Shop Blog About Pricing 
+
+    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
+
